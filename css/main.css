@@ -12,16 +12,49 @@ Second color:#ec1c23
     color:#FFF ;
     padding: 10px;
 }
-
+.upper-bar div span{
+    color: #bfc6c9;
+}
 /* end upper bar */
+
+/* ****************************** */
 
 /* start nav bar */
 
-div span :first-child{
+.Elite{
     color:#08526d ;
+    font-weight: bold;  
+    font-size: 30px;
 }
-div span :last-child{
+.Corp{
+    font-size: 30px;
+    color:#ec1c23 ;
+}
+
+.upper-bar .get-quete{
+    border: 1px solid red;
+    margin-left: 20px;
+    padding: 4px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+
+    color:#ec1c23!important ;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 20px;
+    margin-left: 20px;
+    color: #08526d ;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
     color:#ec1c23 ;
 }
 
 /* end nav bar */
+
+/* ****************************** */
