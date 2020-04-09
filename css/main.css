@@ -13,5 +13,15 @@ Second color:#ec1c23
     padding: 10px;
 }
 
-
 /* end upper bar */
+
+/* start nav bar */
+
+div span :first-child{
+    color:#08526d ;
+}
+div span :last-child{
+    color:#ec1c23 ;
+}
+
+/* end nav bar */
