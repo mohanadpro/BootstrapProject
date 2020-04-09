@@ -58,3 +58,11 @@ Second color:#ec1c23
 /* end nav bar */
 
 /* ****************************** */
+
+/* start slider */
+
+.slider .carousel-item{
+    background-size: cover;
+}
+/* end slider */
+/* ****************************** */
