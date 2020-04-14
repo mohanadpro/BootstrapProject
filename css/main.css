@@ -161,6 +161,7 @@ body{
 }
 
 .companyView .content span{
+    word-spacing: 7px;
     margin-bottom: 30px;
     color: #AAA
 }
@@ -173,3 +174,50 @@ body{
     display: inline-block;
 }
 /* end company view */
+
+/* start featured work */
+
+.featuredwork{
+    width: 1100px;
+    margin: auto;
+}
+
+.featuredwork h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.featuredwork p{
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.featuredwork ul li{
+
+    border: 2px solid #08526d ;
+    color: #08526d ;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.featuredwork ul li.active,
+.featuredwork ul li:hover{
+    color: white;
+    background-color: #ec1c23;
+    border: 2px solid #ec1c23;
+}
+
+.featuredwork ul li:hover{
+    cursor: pointer;
+}
+
+
+/* end featured work */
