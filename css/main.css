@@ -106,3 +106,32 @@ body{
 
 /* end slider */
 /* ****************************** */
+
+/* start featues */
+
+.features{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.features .container .row .col-sm-6{
+    margin-bottom: 30px;
+}
+.features i{
+    background-color:#ec1c23 ;
+
+    line-height: 80px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.features h3{
+    color: #08526d ;;
+}
+
+.features p{
+    color: #AAA;
+}
+/* end features */
