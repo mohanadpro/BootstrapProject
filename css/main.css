@@ -243,3 +243,35 @@ body{
 }
             /* end Featured work images */
 /* end featured work */
+
+
+/* start latest post */
+
+.latest-post{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.latest-post h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.latest-post .container .card{
+    text-align: start;
+}
+.latest-post .container .card h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(34, 80, 165);
+}
+
+.latest-post .container .card span{
+    font-size: 15px;
+    color: #AAA;
+}
+.latest-post .container .card a{
+    color: red;
+    font-weight: bold;
+}
+/* end latest post */
