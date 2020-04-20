@@ -196,36 +196,50 @@ body{
     text-align: center;
 }
 
-.featuredwork ul li{
+.featuredwork .list-unstyled .col-md{
+    margin-right: 5px ;
+}
 
+.featuredwork .list-unstyled ul li{
     border: 2px solid #08526d ;
+    text-align: center;
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
     color: #08526d ;
     text-transform: uppercase;
-    padding: 10px 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
     font-size: 11px;
     font-weight: bold;
 }
 
-.featuredwork ul li.active,
-.featuredwork ul li:hover{
+.featuredwork .list-unstyled ul li.active,
+.featuredwork .list-unstyled ul li:hover{
     color: white;
     background-color: #ec1c23;
     border: 2px solid #ec1c23;
 }
 
-.featuredwork ul li:hover{
+.featuredwork .list-unstyled ul li:hover{
     cursor: pointer;
 }
+
+            /* start Featured work images */
 .featuredwork .shuffel{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
     margin-top: 50px;
 }
-.featuredwork .row img{
+.featuredwork .shuffel .row{
+    margin: 0;
+}
+.featuredwork .shuffel img{
     width: 100%;
 }
-.featuredwork .row .col-sm,.col-md,.col-lg{
+
+.featuredwork .shuffel .col-sm,.featuredwork .shuffel .col-md,.featuredwork .shuffel .col-lg{
     padding: 0;
     margin: 0;
 }
+            /* end Featured work images */
 /* end featured work */
