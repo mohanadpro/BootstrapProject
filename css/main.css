@@ -289,10 +289,10 @@ body{
 /* start testimonails */
 
 .testimonials{
-    height: 630px;
     position: relative;
     margin-top: 50px;
     transform-style: preserve-3d;
+    /* height: 600px; */
 }
 
 .testimonials .carousel-control-next-icon,
@@ -310,51 +310,120 @@ body{
     background-color: red;
 }
 
-.carousel{
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-}
-.testimonials .overlay{
-    position: relative;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-}
-
-.testimonials .overlay .PersonalInfo{    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    color: white;
-    text-align: center;
-    top:20%;
-    left: 30%;
-    width: 600px;
-
-}
-.testimonials .overlay .PersonalInfo img{
-    width: 100px;
-    border-radius: 50%;
-}
-.testimonials .overlay .PersonalInfo p{
-    margin-top: 50px;
-}
-.testimonials .overlay .PersonalInfo > div{
-    margin-top:20px ;
-}
-
-.testimonials .overlay .PersonalInfo > div h4{
-    margin-bottom: 10px;
-}
-.testimonials .overlay .carousel-indicators li{
+.testimonials .carousel-indicators li{
     border-radius: 50%;
     height: 15px;
     width: 15px;
 }
 .testimonials .carousel-indicators li:hover{
     cursor: pointer;
+    background-color: red;
 }
+
+.testimonials .overlay{
+    position: absolute;
+    z-index: 7;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.testimonials .overlay .container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:400px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    width: 600px;
+
+}
+.testimonials .overlay .container img{
+    width: 100px;
+    border-radius: 50%;
+}
+.testimonials .overlay .container p{
+    margin-top: 50px;
+}
+.testimonials .overlay .container > div{
+    margin-top:20px ;
+}
+
+.testimonials .overlay .container > div h4{
+    margin-bottom: 10px;
+}
+
 /* end testimonials */
+
+
+/* start pricing table */
+
+.priceTable{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.priceTable .row{
+    margin-top: 100px;
+}
+
+.priceTable .container h2{
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.priceTable .container .card{
+    border: 1px solid #EEE;
+}
+
+.priceTable .container .card:hover{
+    transform: translateY(-15px);
+
+}
+.priceTable .container .card:hover .card-body a{
+    background-color: rgb(23, 23, 97);
+}
+
+.priceTable .container .card:hover .list-group-item {
+    color: white;
+    background-color: #ec1c23;
+}
+
+.priceTable .container .card .card-title{
+    color: #08526d;
+}
+
+.priceTable .container .card h5{
+    font-weight: bolder;
+}
+
+.priceTable .container .card .list-group-item{
+    color: #08526d;
+    background-color: rgba(236, 236, 236, 0.863);
+}
+.priceTable .container .card .list-group-item span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.priceTable .container .card ul li{
+    text-decoration: none;
+    list-style: none;
+
+    margin-bottom: 20px;
+}
+
+.priceTable .container .card .card-body a
+{   
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #ec1c23;
+}
+
+/* end pricing table */
