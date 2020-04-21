@@ -1,68 +1,74 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('../img/img3.jpg');
+    background: url('../img/img3.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    z-index: 1;
+    transform-style: preserve-3d;
     color: white;
 }
 
-.formLogin{
+.container{
+    width: 100%;
     position: relative;
-    width: 500px;
-    height: 400px;
+    z-index: 0;
+}  
+
+
+.formLogin{
+    position: absolute;
+
+    width: 400px;
+    height: 500px;
     border: 2px solid rgb(81, 235, 81);
-    border-radius: 50% 20px 20px 50% ;
-    transform: translate(100%,50%)
+    border-radius: 50% 20px 20px 50%;
+    left: 30%;
+    top: 20%;
+    z-index: 3;
 
 }
+
+.formDesign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .formLogin h1{
     font-size: 50px;
     color: white;
     text-align: center;
-}
+} 
 
-.formLogin > div{
+.formDesign div{
+    margin-top: 50px;
+    margin-bottom: 30px;
+} 
 
-    position: absolute;
-    top:10%;
-    left: 30%;
-}
-
-.formLogin > div > div{
-
-    /* display: flex; */
-    align-items: center;  
-    justify-items: center;  
-    margin-bottom: 20px;
-}
-
-.formLogin input{
+ .formLogin input{
     font-size: 20px;
     padding: 10px;
     background-color:rgba(0, 0, 0, 0);
-    border: none;
+    border-radius: 30px;
     outline: none;
-    border-bottom: 2px solid rgb(81, 235, 81);
+    border: 2px solid rgb(81, 235, 81);
     color: white;
     text-align: center;
 }
 
-.formLogin i{
-    /* color: rgba(29, 31, 29, 0.8); */
-    font-size: 30px;
-    margin: 0 -30px;
-    padding: 0;
+.formDesign div i{
+    margin-right: -40px;
 }
 
-.formLogin > div >div:nth-of-type(3){
-    margin-right: 30px;
-}
 
 .formLogin button{
-    width: 100%;
     background-color: rgba(0, 0, 0, 0);
     border: 2px solid rgb(81, 235, 81);
+    border-radius: 20px;
     font-size: 20px;
     color: white;
+    width: 90%;
     padding: 7px;   
     font-weight: bold;
     text-align: center;
@@ -70,4 +76,12 @@ body{
 
 .formLogin button:hover{
     cursor: pointer;
+} 
+
+.container .overlay{
+    display: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 754px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
