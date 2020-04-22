@@ -6,6 +6,7 @@ Second color:#ec1c23
 
 body{
     perspective: 600px;
+    height: 7000px;
 }
 
 /* start upper bar */
@@ -429,15 +430,10 @@ body{
 /* end pricing table */
 
 /* start why choose us */
-
-.choose .row{
-    margin: 0;
-    padding: 0;
-    height: 400px;
+.choose{
+    margin-bottom: 50px;
 }
-/* .choose h2{
-    padding: 20px 0 30px 10px;
-} */
+
 
 .choose .row .AboutUs{
     background-color:#08526d;
@@ -464,3 +460,25 @@ body{
 }
 
 /* End why choose us */
+
+/* start statistics */
+
+.statistics{
+    margin-top: 50px;
+    text-align: center;
+}
+.statistics .container h3{
+    color: #08526d;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.statistics .container p{
+    color:#ec1c2371;
+}
+
+.statistics  .container i{
+    color: #08526d;;
+}
+
+/* end statistics */
