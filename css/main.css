@@ -427,3 +427,40 @@ body{
 }
 
 /* end pricing table */
+
+/* start why choose us */
+
+.choose .row{
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+/* .choose h2{
+    padding: 20px 0 30px 10px;
+} */
+
+.choose .row .AboutUs{
+    background-color:#08526d;
+    color: white;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.choose .row .imgback{
+    width: 100%;
+    background-image: url('../img/3.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.choose a{
+    background-color: #ec1c23;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px;
+    text-transform: uppercase;
+
+}
+
+/* End why choose us */
