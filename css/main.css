@@ -3,10 +3,12 @@ programmer : Mohanad Dahi
 First color:#08526d
 Second color:#ec1c23
 */
-
+*{
+    box-sizing: border-box;
+}
 body{
     perspective: 600px;
-    height: 7000px;
+    box-sizing: border-box;
 }
 
 /* start upper bar */
@@ -513,6 +515,7 @@ body{
 
 /* start footer */
 
+
 footer p{
 
     margin-top: 30px;
@@ -579,4 +582,31 @@ footer .container .contactul li{
 footer .contactul a{
     color: #08526d;
 }
+
+
+/* start copyright */
+.copyright{
+    margin: 30px 0;
+    padding: 0;
+    border-top: 2px solid #EEE;
+}
+
+.copyright p{
+    float: left;
+    padding-left: 20px;
+}
+.copyright ul li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.copyright ul li i{
+    margin-top: 30px;
+    display: inline-block;
+    color: #AAA;
+
+}
+
+/* end copy right */
 /* end footer */
