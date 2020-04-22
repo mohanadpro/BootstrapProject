@@ -504,7 +504,79 @@ body{
     text-transform: uppercase;
     padding: 5px 12px;
     float: right;
+    text-decoration: none;
     color: white;
 }
 
 /* end contact us */
+
+
+/* start footer */
+
+footer p{
+
+    margin-top: 30px;
+}
+
+footer .readmore{
+    font-weight: bold;
+    color: #08526d;
+}
+
+footer .readmore::before{
+    content: '\f138';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+}
+
+footer h5{
+
+    padding:10px 0 0 5px;
+    color: #08526d;
+    margin-bottom: 44px;
+}
+
+footer .list-First-Helpful-Links,footer .list-First-Helpful-Links{
+    /* padding: 0px; */
+    float: left;
+}
+
+footer .list-First-Helpful-Links a::before{
+    content: '\f105';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+}
+
+footer .list-Second-Helpful-Links a::before{
+    content: '\f105';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+}
+
+
+footer .container .contactul li{
+    margin-bottom: 20px;
+}
+
+
+
+footer .contactul a{
+    color: #08526d;
+}
+/* end footer */
