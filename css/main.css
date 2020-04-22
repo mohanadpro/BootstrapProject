@@ -482,3 +482,29 @@ body{
 }
 
 /* end statistics */
+
+
+/* start contact us */
+
+.contact{
+    background-color: #ec1c23;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.contact a{
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    float: right;
+    color: white;
+}
+
+/* end contact us */
